@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+.Notifications {
+  font-family: 'Open Sans', sans-serif;
+  border: 3px dotted rgb(123, 123, 123);
+  padding: 20px;
+  color: rgb(123, 123, 123);
+  margin: 5px;
+}
+
+.Notifications > ul {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.Notifications > ul > li[data-priority='default'] {
+  color: blue;
+}
+
+.Notifications > ul > li[data-priority='urgent'] {
+  color: red;
+}
